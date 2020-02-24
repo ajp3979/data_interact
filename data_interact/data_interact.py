@@ -38,7 +38,7 @@ def main():
 
     args = parser.parse_args()
     path = args.path
-    print(path)
+
     if not os.path.exists(path):
         print('The path specified does not exist')
         sys.exit()
