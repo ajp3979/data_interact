@@ -8,8 +8,8 @@ setup(
     name='data_interact',
     description='An app for interacting with data via Pandas.',
     author='Andrew Pritchett',
-    url='http://expel.io',
-    license='Proprietary',
+    url='None',
+    license='MIT',
     version=versioneer.get_version(),
     cmdclass=versioneer.get_cmdclass(),
     entry_points={'console_scripts': [
